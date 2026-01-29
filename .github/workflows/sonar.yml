@@ -32,7 +32,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.projectKey=your-project
-            -Dsonar.organization=your-org
+            -Dsonar.projectKey=sample-node-sonar
+            -Dsonar.organization=sonar-brettmiller
             -Dsonar.host.url=https://sonarcloud.io
             -Dsonar.sources=.

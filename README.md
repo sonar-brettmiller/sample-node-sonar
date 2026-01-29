@@ -3,7 +3,9 @@
 Minimal Node/TS project used to validate the SonarCloud GitHub Actions template.
 
 ## Setup
-1. Create a SonarCloud project and note your organization key and project key.
-2. Update `.github/workflows/sonar.yml` with your `sonar.organization` and `sonar.projectKey`.
-3. Add `SONAR_TOKEN` as a GitHub repository secret.
-4. Push to `main` and confirm the analysis appears in SonarCloud.
+1. Add `SONAR_TOKEN` as a GitHub repository secret.
+2. Push to `main` and confirm the analysis appears in SonarCloud.
+
+SonarCloud settings:
+- sonar.organization: sonar-brettmiller
+- sonar.projectKey: sample-node-sonar
